@@ -6,13 +6,6 @@ curDir = os.getcwd()
 if not os.path.exists(curDir + '/books'):
 	os.mkdir('books')   
 
-
-
-
-
-
-
-
 titleMatch = re.compile(r'START OF THIS PROJECT GUTENBERG EBOOK.*[*]')
 title = None
 folder = './books/'
